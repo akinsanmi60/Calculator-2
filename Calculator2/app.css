@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  /* To make everything center inside the body*/
+    font-family: monospace;
+    overflow: hidden;
+}
+
+section {
+    width: 280px;
+    background-color: #4C5270;
+    padding-bottom: 15px;
+    border-radius: 7px;
+    box-shadow: 5px 8px 8px -2px rgba(0, 0, 0, 0.74);
+}
+
+.display{
+    background-color: rgb(182, 182, 182);
+    height: 100px;
+    width: 100%;
+    text-align: right;
+    padding: 20px;
+    font-size: 40px;
+    position: relative;
+    border: none; /* this take away the border of the input*/
+    box-sizing: border-box;
+    border-top-left-radius: 7px; /* it curves the top edges of the input*/
+    border-top-right-radius: 7px;
+}
+.display-1{
+    opacity: .4;
+    font-size: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.temp-result{
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    opacity: .3;
+}
+
+    .row {
+    display: flex;
+    justify-content: space-between; /* the give space between the buttons*/
+  }
+
+  button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: #F652A0;
+    font-size: 20px;
+    color: #fff; /*Font color for text inside the button*/
+    margin: 10px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  .operator {
+    background-color: #36EEE0;
+    color: #000;
+  }
+
+  #operation {
+    background-color: #36EEE0;
+    color: #000;
+  }
+
+  
+  
